@@ -1,3 +1,7 @@
+-- lualine.nvim [Indicators]
+-- Displays information about the current buffer on the bottom of the screen.
+--
+-- See https://github.com/nvim-lualine/lualine.nvim for more information.
 return {
 	"nvim-lualine/lualine.nvim",
 	dependencies = { "nvim-tree/nvim-web-devicons", "Shatur/neovim-ayu" },
@@ -8,9 +12,6 @@ return {
 		lualine.setup({
 			options = {
 				theme = "ayu",
-				disabled_filetypes = {
-					"NvimTree",
-				},
 			},
 			sections = {
 				lualine_x = {

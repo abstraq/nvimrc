@@ -1,4 +1,4 @@
--- Load our custom globals and options.
+-- Load our custom global and option.
 require("options")
 require("keymaps")
 

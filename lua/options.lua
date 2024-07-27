@@ -2,11 +2,6 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
--- Disable netrw as it can cause conflicts with our desired file explorer.
--- See `:h nvim-tree-netrw` for more information.
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-
 -- Enables current and relative line numbers.
 vim.opt.number = true
 vim.opt.relativenumber = true
@@ -24,6 +19,9 @@ vim.opt.wrap = false
 
 -- Persists undo history to a file.
 vim.opt.undofile = true
+
+-- Disable swap file.
+vim.opt.swapfile = false
 
 -- Makes searching case-insensitive unless the query contains mixed casing.
 vim.opt.ignorecase = true
@@ -47,7 +45,7 @@ vim.opt.splitbelow = true
 
 -- Specifies how to display whitespace characters in the editor.
 vim.opt.list = true
-vim.opt.listchars = { tab = "│─", trail = "·", nbsp = "␣" }
+vim.opt.listchars = { tab = "│ ", trail = "·", nbsp = "␣" }
 
 -- Enables substitution previews.
 vim.opt.inccommand = "split"
