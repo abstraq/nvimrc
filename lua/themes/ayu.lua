@@ -3,6 +3,7 @@
 return {
 	"Shatur/neovim-ayu",
 	priority = 1000,
+	enabled = false,
 	config = function()
 		local ayu = require("ayu")
 		ayu.setup({ mirage = true })

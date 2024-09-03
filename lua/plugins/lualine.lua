@@ -8,7 +8,7 @@ return {
 	config = function()
 		local lualine = require("lualine")
 		lualine.setup({
-			options = { theme = "nord" },
+			options = { theme = "modus-vivendi" },
 		})
 	end
 }

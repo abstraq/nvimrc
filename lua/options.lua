@@ -46,9 +46,6 @@ vim.opt.listchars = { tab = "│ ", trail = "·", nbsp = "␣" }
 -- Enables substitution previews.
 vim.opt.inccommand = "split"
 
--- Highlights the current line that the cursor is on.
-vim.opt.cursorline = true
-
 -- Specifies the lower limit of lines to pad the cursor.
 vim.opt.scrolloff = 15
 
