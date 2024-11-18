@@ -7,7 +7,6 @@ return {
 	config = function()
 		local catppuccin = require("catppuccin")
 		catppuccin.setup({
-			flavour = "frappe",
 			transparent_background = true
 		})
 

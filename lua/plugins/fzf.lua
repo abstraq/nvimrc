@@ -30,6 +30,13 @@ return {
 			{ desc = "Search help tags." }
 		},
 		{
+			"<leader>sb",
+			function()
+				local fzf = require("fzf-lua")
+				fzf.buffers()
+			end
+		},
+		{
 			"<leader>ca",
 			function()
 				local fzf = require("fzf-lua")
